@@ -1,6 +1,6 @@
 Name:           nvidia-xconfig
-Version:        340.104
-Release:        2%{?dist}
+Version:        340.107
+Release:        1%{?dist}
 Summary:        NVIDIA X configuration file editor
 Epoch:          2
 License:        GPLv2+
@@ -42,6 +42,9 @@ make %{?_smp_mflags} \
 %{_mandir}/man1/%{name}.1.*
 
 %changelog
+* Sun Aug 12 2018 Jemma Denson <jdenson@gmail.com> - 2:340.107-1
+- Update to 340.107
+
 * Sat Dec 23 2017 Jemma Denson <jdenson@gmail.com> - 2:340.104-2
 - Merge in negativo17 changes:
 - Update SPEC file to get the proper flags on Fedora 27.
